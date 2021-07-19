@@ -1,3 +1,7 @@
 import './module';
 import './scss/index.scss';
-console.log('working...');
+import 'bootstrap';
+import 'boxicons';
+import './components/sidebar';
+
+console.log('entry point...'); 

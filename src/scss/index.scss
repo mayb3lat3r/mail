@@ -1,5 +1,24 @@
-$red: blue;
+@import "~bootstrap/scss/bootstrap";
+@import "~normalize.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import "./sidebar.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 
 body {
-    background: yellowgreen;
+    background: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+    font-size: 12px;
+    height: 100vh;
+    display: flex;
 }
+
